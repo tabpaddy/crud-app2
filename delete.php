@@ -4,9 +4,9 @@
     if(isset($_POST['deletesend'])){
         $unique = $_POST['deletesend'];
 
-        $sql = "delete from 'crud' where id = $unique";
+        $sql = "DELETE FROM crud WHERE id = $unique";
         $result=mysqli_query($con, $sql);
     }
-
+    
 
 ?>
